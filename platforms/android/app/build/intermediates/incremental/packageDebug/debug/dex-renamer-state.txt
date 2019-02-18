@@ -1,0 +1,4 @@
+#Mon Feb 18 17:47:29 IST 2019
+base.0=C\:\\projects\\REMY-CORODVA-REACT\\CORDOVA-OAUTH\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

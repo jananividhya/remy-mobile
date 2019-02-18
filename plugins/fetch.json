@@ -1,0 +1,21 @@
+{
+  "cordova-plugin-googleplus": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-googleplus@~7.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "REVERSED_CLIENT_ID": "com.googleusercontent.apps.391174791765-vrsc7mjfl2oasb1p7a6eppu90u3qh3uu",
+      "WEB_APPLICATION_CLIENT_ID": "391174791765-vrsc7mjfl2oasb1p7a6eppu90u3qh3uu.apps.googleusercontent.com"
+    }
+  },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

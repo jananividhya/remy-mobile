@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"GooglePlus\"><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<access origin=\"https://accounts.google.com/*\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-googleplus": {
+      "WEB_APPLICATION_CLIENT_ID": "608786284894-bren2jr5nriuplrr0rola4totho5vl1q.apps.googleusercontent.com391174791765-vrsc7mjfl2oasb1p7a6eppu90u3qh3uu.apps.googleusercontent.com",
+      "PACKAGE_NAME": "com.example.hello"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-googleplus/www/GooglePlus.js",
+      "id": "cordova-plugin-googleplus.GooglePlus",
+      "pluginId": "cordova-plugin-googleplus",
+      "clobbers": [
+        "window.plugins.googleplus"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-googleplus/src/browser/GooglePlusProxy.js",
+      "id": "cordova-plugin-googleplus.GooglePlusProxy",
+      "pluginId": "cordova-plugin-googleplus",
+      "clobbers": [
+        "GooglePlus"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-googleplus": "7.0.0"
+  }
+}

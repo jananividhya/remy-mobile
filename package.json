@@ -1,0 +1,33 @@
+{
+  "name": "com.example.hello",
+  "displayName": "CORDOVA-OAUTH",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://example.com",
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "com.googleusercontent.apps.391174791765-vrsc7mjfl2oasb1p7a6eppu90u3qh3uu",
+        "WEB_APPLICATION_CLIENT_ID": "391174791765-vrsc7mjfl2oasb1p7a6eppu90u3qh3uu.apps.googleusercontent.com"
+      },
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "circular-json": "^0.5.9",
+    "cordova-android": "^7.1.4",
+    "cordova-browser": "^5.0.4",
+    "cordova-plugin-googleplus": "~7.0.0",
+    "cordova-plugin-whitelist": "^1.3.3",
+    "flatted": "^2.0.0"
+  }
+}

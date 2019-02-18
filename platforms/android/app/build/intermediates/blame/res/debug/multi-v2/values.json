@@ -1,0 +1,56 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\projects\\REMY-CORODVA-REACT\\CORDOVA-OAUTH\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\projects\\REMY-CORODVA-REACT\\CORDOVA-OAUTH\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,55,-1",
+                        "endColumns": "-1,41,-1",
+                        "endOffsets": "-1,92,-1"
+                    },
+                    "to": {
+                        "startLines": "34,35,54",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1567,1631,4006",
+                        "endColumns": "63,41,58",
+                        "endOffsets": "1626,1668,4060"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\85214b0507a786bb09c90eb0e982ef64\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,52,53",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,195,275,365,455,535,616,696,1673,1778,1959,2084,2191,2371,2494,2610,2880,3068,3173,3354,3479,3654,3802,3865,3927",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
+                        "endOffsets": "190,270,360,450,530,611,691,771,1773,1954,2079,2186,2366,2489,2605,2708,3063,3168,3349,3474,3649,3797,3860,3922,4001"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Lenovo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\8c2462c8ce6a753f5bdf75912f315c53\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "33,44",
+                        "startColumns": "4,4",
+                        "startOffsets": "1499,2713",
+                        "endColumns": "67,166",
+                        "endOffsets": "1562,2875"
+                    }
+                }
+            ]
+        }
+    ]
+}
